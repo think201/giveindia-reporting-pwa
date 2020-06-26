@@ -1,0 +1,120 @@
+.HeaderType1 {
+  background-color: rgb(255, 80, 80);
+  padding: 14px;
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+  }
+  li {
+    margin-right: 12px;
+    color: #fff;
+    font-size: 20px;
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
+.mlAuto {
+  margin-left: auto !important;
+}
+/*Sidebar*/
+.SidebarHeader {
+  padding: 25px;
+  background-color: rgb(255, 80, 80);
+  position: relative;
+  img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    left: 18px;
+    top: 12px;
+  }
+  .sidebarDetails {
+    padding-left: 75px;
+    h4 {
+      margin: 0;
+      font-size: 17px;
+      color: #fff;
+      font-weight: 400;
+    }
+    p {
+      margin: 0;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.66);
+    }
+  }
+}
+.SidebarLink {
+  padding-bottom: 20px;
+  span {
+    color: rgb(68, 68, 68);
+    font-size: 15px;
+    font-weight: 600;
+  }
+  i {
+    color: rgb(192, 192, 192);
+    margin-right: 15px;
+  }
+}
+.Body {
+  padding: 30px 16px;
+  p {
+    color: rgb(68, 68, 68);
+    font-size: 14px;
+    margin: 0;
+  }
+  .Searchbar {
+    position: relative;
+    padding: 20px 0 30px 0;
+    input {
+      width: 95%;
+      border: 1px solid rgb(206, 212, 218);
+      height: 38px;
+      border-radius: 5px;
+      font-size: 14px;
+      padding: 0 10px;
+    }
+    i {
+      position: absolute;
+      color: rgb(192, 192, 192);
+      right: 10px;
+      top: 30px;
+      font-size: 19px;
+    }
+  }
+}
+
+.programCard {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;
+  margin-bottom: 14px;
+  img {
+    height: 110px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .CardBody {
+    padding: 16px 20px;
+    h4 {
+      font-size: 16px;
+      font-weight: 600;
+      color: rgb(68, 68, 68);
+      margin: 0 0 11px 0;
+      line-height: 24px;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      color: rgb(153, 153, 153);
+      span {
+        color: rgb(255, 80, 80);
+      }
+    }
+  }
+}

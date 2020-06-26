@@ -1,0 +1,42 @@
+.HeaderType1 {
+    background-color: rgb(255, 80, 80);
+    padding: 14px;
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+    }
+    li {
+        margin-right: 12px;
+        color: #fff;
+        font-size: 20px;
+        &:last-child {
+            margin: 0;
+        }
+    }
+}
+
+.Notification {
+    padding: 20px;
+    position: relative;
+    padding-left: 75px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    i {
+        font-size: 40px;
+        position: absolute;
+        left: 15px;
+        top: 30px;
+    }
+
+    p {
+        font-size: 16px;
+        color: #444;
+        line-height: 25px;
+        margin: 0 0 8px;
+        span {
+            font-size: 14px;
+            color: #999;
+        }
+    }
+}

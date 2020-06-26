@@ -1,0 +1,168 @@
+.HeaderType1 {
+  background-color: rgb(255, 80, 80);
+  padding: 14px;
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+  }
+  li {
+    margin-right: 12px;
+    color: #fff;
+    font-size: 20px;
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
+.mlAuto {
+  margin-left: auto !important;
+}
+.Pb0 {
+  padding-bottom: 0 !important;
+}
+
+.HeaderType1.Type2 {
+  ul {
+    align-items: center;
+    li {
+      margin-right: 16px;
+      p {
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 13px;
+        margin: 0;
+        margin-top: 3px;
+      }
+    }
+  }
+}
+/*Body*/
+.PageBanner {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  object-position: top;
+}
+.Body {
+  padding: 30px 16px;
+  position: relative;
+  .bannerDetails {
+    img {
+      max-width: 100px;
+      margin-bottom: 14px;
+    }
+    h2 {
+      font-size: 20px;
+      margin: 0;
+      line-height: 32px;
+      font-weight: 700;
+    }
+    ul {
+      padding: 0;
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        margin-right: 15px;
+        color: rgb(255, 80, 80);
+        font-size: 15px;
+        i {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  p {
+    color: rgb(68, 68, 68);
+    font-size: 16px;
+    margin-top: 0;
+    line-height: 24px;
+    span {
+      color: rgb(0, 140, 140);
+    }
+  }
+  .Searchbar {
+    position: relative;
+    padding: 20px 0 30px 0;
+    input {
+      width: 95%;
+      border: 1px solid rgb(206, 212, 218);
+      height: 38px;
+      border-radius: 5px;
+      font-size: 14px;
+      padding: 0 10px;
+    }
+    i {
+      position: absolute;
+      color: rgb(192, 192, 192);
+      right: 10px;
+      top: 30px;
+      font-size: 19px;
+    }
+  }
+  /*stickey buttons*/
+  .stickeyButtons {
+    position: fixed;
+    bottom: 16px;
+    left: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+}
+.Small {
+  font-size: 13px !important;
+  color: #999 !important;
+  font-weight: 400 !important;
+  margin: 0 0 8px 0 !important;
+}
+.Red {
+  color: rgb(255, 80, 80) !important;
+}
+
+.Blue {
+  color: rgb(0, 140, 140) !important;
+}
+.Dark {
+  color: rgb(68, 68, 68) !important;
+}
+
+/*updates*/
+.updatesContainer {
+  padding: 18px 18px 0 18px;
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0;
+    color: #444;
+  }
+  .TimelineFlex {
+    display: flex;
+    width: 100%;
+  }
+  .TimeLineDetails {
+    padding: 0 0 25px 17px;
+  }
+  .TimeLine {
+    width: 32px;
+    position: relative;
+    span {
+      background-color: rgb(255, 80, 80);
+      width: 32px;
+      height: 32px;
+      line-height: 31px;
+      display: inline-block;
+      color: #fff;
+      font-weight: 700;
+      font-size: 14px;
+      text-align: center;
+    }
+    .Line {
+      position: absolute;
+      width: 1px;
+      height: 100%;
+      background-color: rgb(230, 230, 230);
+      left: 16px;
+    }
+  }
+}
